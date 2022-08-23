@@ -1,0 +1,48 @@
+.name-logo{
+    color:#7C5EF2;
+    padding: 2px 10px 2px 10px;
+    border-radius: 8px;
+    border: 3px solid #7C5EF2;
+}
+.nav-link{
+    color:#97999D!important;
+}
+.navbar-nav{
+    font-size: 16px;
+}
+
+.navbar-toggler{
+    background-color: #212B46
+}
+
+.navbar .navbar-nav .nav-link:hover{
+    position: relative;
+}
+.navbar .navbar-nav .nav-link:hover:after{
+    content: '';
+
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 8px;
+
+    border-width: 0 0 1px;
+    border-style: solid;
+}
+
+.active{
+    color:#7C5EF2 !important;
+    position: relative;
+    font-weight: 500;
+}
+.active:after{
+    content: '';
+
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 8px;
+
+    border-width: 0 0 3px;
+    border-style: solid;
+}

@@ -1,8 +1,11 @@
+import {Fragment} from "react";
+import Navbar from "../pages/Navbar";
 
 function App() {
   return (
-    <div className="App">
-    </div>
+    <Fragment>
+      <Navbar></Navbar>
+    </Fragment>
   );
 }
 
