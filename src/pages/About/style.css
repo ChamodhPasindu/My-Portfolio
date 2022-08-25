@@ -1,54 +1,5 @@
 /*About-start*/
-.about-title>h3{
-    color: #888888;
-    background-color: #1b223a;
-    width: 200px;
-    padding: 10px 10px 10px 10px;
-    border-radius: 8px;
-    text-align: center;
-    box-shadow: 5px 5px 10px #0e1520, -5px -5px 10px #141f30;
-
-    position: relative;
-    z-index: 10;
-}
-.about-title>hr{
-
-}
-.p-holder{
-    width: 70%;
-    font-size: 18px;
-    color: #BCBCBC;
-}
-.detail-card-holder{
-    height: 250px;
-    width: 15%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.detail-card-holder>div{
-    height: 45%;
-    border-radius: 10px;
-    background-color:#1b223a ;
-    box-shadow: 5px 5px 10px #0e1520, -5px -5px 10px #141f30;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.detail-card-holder>div>h1{
-    color:#CDCDCD ;
-}
-.detail-card-holder>div>h6{
-    margin-top: -5px;
-    color:#888888 ;
-    width: 50%;
-}
-/*About-end*/
-
-/*stack-start*/
-.stack-title>h3{
+.about-title > h3 {
     color: #888888;
     background-color: #1b223a;
     width: 250px;
@@ -60,37 +11,143 @@
     position: relative;
     z-index: 10;
 }
-/*stack-end*/
 
-@media all and (min-width: 320px) and (max-width:991px) {
-    .about-content-area{
-        flex-direction:column;
+.p-holder {
+    width: 70%;
+    font-size: 18px;
+    color: #BCBCBC;
+}
+
+.detail-card-holder {
+    height: 250px;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.detail-card-holder > div {
+    height: 45%;
+    border-radius: 10px;
+    background-color: #1b223a;
+    box-shadow: 5px 5px 10px #0e1520, -5px -5px 10px #141f30;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.detail-card-holder > div > h1 {
+    color: #CDCDCD;
+}
+
+.detail-card-holder > div > h6 {
+    margin-top: -5px;
+    color: #888888;
+    width: 50%;
+}
+
+/*About-end*/
+
+/*stack-start*/
+.stack-title > h3 {
+    color: #888888;
+    background-color: #1b223a;
+    width: 250px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 5px 5px 10px #0e1520, -5px -5px 10px #141f30;
+
+    position: relative;
+    z-index: 10;
+}
+
+.stack-card {
+    height: 100%;
+    width: 200px;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    background-color: #1b223a;
+    box-shadow: 5px 5px 10px #0e1520, -5px -5px 10px #141f30;
+}
+
+.stack-card img {
+    height: 65px;
+}
+
+.stack-card p {
+    font-size: 20px;
+    color: #BCBCBC;
+    margin: 0 !important;
+}
+
+@media all and (min-width: 320px) and (max-width: 991px) {
+    .about-content-area {
+        flex-direction: column;
     }
-    .detail-card-holder{
+
+    .detail-card-holder {
         margin-top: 20px;
         flex-direction: row;
         width: 90%;
         height: 115px;
         justify-content: space-evenly;
     }
-    .detail-card-holder>div{
+
+    .detail-card-holder > div {
         width: 30%;
         height: 100%;
     }
-    .detail-card-holder>div>h6{
+
+    .detail-card-holder > div > h6 {
         width: 80%;
     }
-    .p-holder{
+
+    .p-holder {
         width: 99%;
     }
 }
-@media all and (min-width: 320px) and (max-width:374px) {
-    .detail-card-holder{
+
+@media all and (min-width: 320px) and (max-width: 424px) {
+    .detail-card-holder {
         width: 100%;
     }
-    .detail-card-holder>div>h6{
+
+    .detail-card-holder > div > h6 {
         width: 100%;
         font-size: 14px;
+    }
+    .stack-card {
+        width: 120px;
+    }
+    .stack-card p {
+        font-size: 13px;
+    }
+    .stack-card img {
+        height: 50px;
+    }
+}
+@media all and (min-width: 1400px) {
+    .stack-card {
+        width: 220px;
+        margin-bottom: 25px!important;
+    }
+}
+@media all and (min-width: 576px) and (max-width: 767px) {
+    .stack-card {
+        width: 230px;
+    }
+
+}
+@media all and (min-width: 425px) and (max-width: 574px) {
+    .stack-card {
+        width: 170px;
+    }
+    .stack-card p {
+        font-size: 16px;
     }
 }
 

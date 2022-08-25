@@ -31,5 +31,11 @@ hr{
   opacity: 100%!important;
   z-index: 1;
 }
+.page-description{
+  font-size: 18px;
+  text-align: center;
+  color: #6284d2;
+  -webkit-text-stroke:0.5px #202a4b;
+}
 
 
