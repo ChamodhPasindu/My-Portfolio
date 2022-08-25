@@ -12,13 +12,20 @@ class Home extends Component {
                     <div className="home-social-box  d-flex flex-column align-items-center justify-content-center">
                         <div className="div-social-link d-flex flex-column align-items-center justify-content-evenly">
                             <div>
-                                <i id="github" className="bi bi-github"/>
+                                <a href="https://github.com/ChamodhPasindu" target="_blank">
+                                    <i id="github" className="bi bi-github"/>
+                                </a>
                             </div>
                             <div>
-                                <i id="twitter" className="bi bi-twitter"/>
+                                <a href="https://twitter.com/chamodh_pasindu" target="_blank">
+                                    <i id="twitter" className="bi bi-twitter"/>
+                                </a>
                             </div>
                             <div>
-                                <i id="linkedin" className="bi bi-linkedin"/>
+                                <a href="https://www.linkedin.com/in/chamodh-pasindu-9b6178217/" target="_blank">
+                                    <i id="linkedin" className="bi bi-linkedin"/>
+                                </a>
+
                             </div>
                         </div>
                         <div className="empty-line-div">

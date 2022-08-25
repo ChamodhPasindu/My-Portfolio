@@ -34,8 +34,8 @@ class Navbar extends Component {
     render() {
         return (
             <Fragment>
-                <nav className="navbar navbar-expand-lg">
-                    <div className="container-xl mt-3">
+                <nav className="navbar navbar-expand-lg sticky-top">
+                    <div className="container-xl mt-2">
                         <button className="bg-transparent fw-bolder fs-5 name-logo">
                             Chamodh
                         </button>

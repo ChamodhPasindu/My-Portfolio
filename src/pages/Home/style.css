@@ -1,5 +1,5 @@
 .home-viewport-custom {
-    height: 90vh;
+    height: 95vh;
 }
 .home-social-box {
     height: 400px;
@@ -44,7 +44,7 @@
     bottom: 0;
     right: 0;
 }
-.div-social-link > div > i {
+.div-social-link > div >a> i {
     font-size: 30px;
     color: #7C5EF2;
 }
@@ -80,7 +80,6 @@
     z-index: 1;
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
-    box-shadow: 5px 5px 10px #0e1520, -5px -5px 10px #141f30;
 }
 #home-grid-img-design{
     height: 60%;

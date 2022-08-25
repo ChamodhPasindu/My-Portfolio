@@ -21,4 +21,15 @@ code {
 ::-webkit-scrollbar-thumb {
   background: #555;
 }
+hr{
+  position: absolute;
+  top: 10px;
+  height:2px;
+  width: 98%;
+  background-color: #1b223a;
+  box-shadow: 5px 5px 5px #0e1520, -5px -5px 5px #141f30;
+  opacity: 100%!important;
+  z-index: 1;
+}
+
 

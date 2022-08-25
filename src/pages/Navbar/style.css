@@ -4,7 +4,9 @@
     border-radius: 8px;
     border: 3px solid #7C5EF2;
 }
-
+.navbar{
+    backdrop-filter: blur(10px);
+}
 .nav-link {
     color: #97999D !important;
 }
