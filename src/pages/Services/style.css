@@ -30,6 +30,10 @@
     .service-card{
         width: 260px;
     }
+    .service-paragraph-div>p{
+        line-height: 1.3;
+
+    }
 }
 @media all and (min-width: 320px) and (max-width: 767px) {
     .service-card{
@@ -39,5 +43,10 @@
 @media all and (min-width: 425px) and (max-width: 767px) {
     .service-card{
         height: 360px;
+    }
+}
+@media all and (min-width: 320px) and (max-width: 425px) {
+    .service-card{
+        height: 355px;
     }
 }

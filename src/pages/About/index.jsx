@@ -60,7 +60,6 @@ class About extends Component {
                                 </div>
                             </div>
                         </div>
-                        <br/><br/>
                     </div>
                     <div>
                         <div className="page-title position-relative">
@@ -71,7 +70,7 @@ class About extends Component {
                         <p className="page-description">Technology i've worked & dabbled with</p>
                         <br/>
                         <div>
-                            <div className="container-m">
+                            <div className="container-md">
                                 <div className="d-flex flex-wrap justify-content-evenly">
                                     <StackCard logo={java_logo} skill="Java"/>
                                     <StackCard logo={python_logo} skill="Python"/>
@@ -95,7 +94,7 @@ class About extends Component {
                                     <StackCard logo={intellij_logo} skill="Intellij"/>
                                 </div>
                             </div>
-                            <br/><br/><br/>
+                            <br/>
                         </div>
                     </div>
                 </div>

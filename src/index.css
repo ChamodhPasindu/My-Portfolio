@@ -48,6 +48,7 @@ hr{
   border-radius: 8px;
   text-align: center;
   box-shadow: 5px 5px 10px #0e1520, -5px -5px 10px #141f30;
+  margin-top: 50px;
 
   position: relative;
   z-index: 10;
@@ -58,6 +59,7 @@ hr{
   font-weight: bold;
   font-size: 18px;
   border:  1px solid #111A28;
+  padding: 10px;
 }
 .explore-more-btn:hover{
   border-radius: 8px;

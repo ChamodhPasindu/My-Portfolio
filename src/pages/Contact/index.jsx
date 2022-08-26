@@ -17,8 +17,12 @@ class Contact extends Component {
                         your projects.</p>
                     <br/><br/>
                     <div className="d-flex justify-content-evenly">
-                        <button className="explore-more-btn contact-btn">Mail Me</button>
-                        <button className="explore-more-btn contact-btn">Get Resume</button>
+                        <a href="mailto:chamodhpasindu@gmail.com">
+                            <button className=" contact-btn" >Mail Me</button>
+                        </a>
+                        <a href="" target="_blank">
+                            <button className=" contact-btn">Get Resume</button>
+                        </a>
                     </div>
                     <br/><br/>
                     <div className="d-flex justify-content-center w-100">

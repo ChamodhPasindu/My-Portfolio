@@ -18,8 +18,7 @@ class Certificate extends Component{
                         <h3>Certificates</h3>
                         <hr/>
                     </div>
-                    <br/>
-                    <br/>
+                    <br/><br/><br/>
                     <div className="d-flex flex-wrap justify-content-evenly">
                         <CertificateCard link={"https://drive.google.com/drive/u/0/folders/1cL2uwJrwYKq_UcvuzJ-_bK_s2lYxW1Jd"} img={js}/>
                         <CertificateCard link={"https://drive.google.com/drive/u/0/folders/1cL2uwJrwYKq_UcvuzJ-_bK_s2lYxW1Jd"} img={python}/>
@@ -36,7 +35,6 @@ class Certificate extends Component{
                                 className="bi bi-caret-right-fill"/></button>
                         </a>
                     </div>
-                    <br/><br/>
                 </div>
             </Fragment>
         )

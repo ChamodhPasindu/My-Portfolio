@@ -2,7 +2,16 @@
     width: 120px;
     height: 50px;
     border: 2px solid #7C5EF2;
-    border-radius: 8px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #7C5EF2!important;
+    font-weight: bold;
+    font-size: 18px;
+}
+.contact-btn:hover {
+    border-radius: 5px;
+    background-color: #202a4b;
+    border:  2px solid #7C5EF2;
 }
 
 .contact-info-card {
@@ -45,7 +54,6 @@
 
 .info-holder h5 i {
     color: #888888;
-    font-size: 18px;
 }
 
 .info-holder h5 i:hover {
@@ -73,6 +81,10 @@
     }
     .icon-div > i {
         font-size: 30px;
+    }
+    .info-holder h5 i {
+        color: #888888;
+        font-size: 30px!important;
     }
 
 
