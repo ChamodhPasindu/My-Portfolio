@@ -36,6 +36,7 @@ class Certificate extends Component{
                                 className="bi bi-caret-right-fill"/></button>
                         </a>
                     </div>
+                    <br/><br/>
                 </div>
             </Fragment>
         )

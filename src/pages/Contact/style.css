@@ -1,0 +1,79 @@
+.contact-btn {
+    width: 120px;
+    height: 50px;
+    border: 2px solid #7C5EF2;
+    border-radius: 8px;
+}
+
+.contact-info-card {
+    width: 350px;
+    height: 100px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    height: 80px;
+}
+
+.icon-div > i {
+    font-size: 50px;
+    color: #7C5EF2;
+}
+
+.info-holder {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-holder h4 {
+    color: #CDCDCD;
+}
+
+.info-holder h5 {
+    color: #888888;
+    font-size: 18px;
+}
+
+.info-holder h5 i {
+    color: #888888;
+    font-size: 18px;
+}
+
+.info-holder h5 i:hover {
+    color: #CDCDCD;
+}
+@media all and (min-width: 320px)  and (max-width: 768px) {
+    .contact-info-card {
+        margin-bottom: 0;
+    }
+}
+
+@media all and (min-width: 320px)  and (max-width: 425px) {
+    .contact-card-holder {
+        width: 100% !important;
+    }
+}
+@media all and (min-width: 320px) and (max-width: 425px) {
+    .contact-info-card {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .info-holder {
+        text-align: center;
+        margin-top: 0!important;
+    }
+    .icon-div > i {
+        font-size: 30px;
+    }
+
+
+}
