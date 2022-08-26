@@ -23,25 +23,30 @@ import vsCode_logo from "../../assets/icon/Visual Studio Code 201910x.png"
 import intellij_logo from "../../assets/icon/IntelliJ IDEA10x.png"
 import StackCard from "./StackCard";
 
-class About extends Component{
+class About extends Component {
     render() {
         return (
             <Fragment>
                 <div className="container-md ">
                     <div>
-                        <div className="about-title position-relative">
-                            <h3 >About Me</h3>
+                        <div className="page-title position-relative">
+                            <h3>About Me</h3>
                             <hr/>
                         </div>
                         <br/><br/>
                         <div className="d-flex justify-content-around align-items-center about-content-area">
                             <div className=" p-holder">
                                 <p>
-                                    A full-stack software developer working on java & javascript. Having a great passion in both back-end and front-end development, I can create API's and decent UI's. I am under graduated student in IJSE(Institute of Java & Software Engineering).
+                                    A full-stack software developer working on java & javascript. Having a great passion
+                                    in both back-end and front-end development, I can create API's and decent UI's. I am
+                                    under graduated student in IJSE(Institute of Java & Software Engineering).
                                 </p>
                                 <br/>
                                 <p>
-                                    I am a motivated individual who likes to learn new things and is a quick learner. I am very passionate and enthusiastic about creating constructive and efficient solutions. I believe that having an open mind can help you remain creative and grasp ideas from any subject to implement it in your field!
+                                    I am a motivated individual who likes to learn new things and is a quick learner. I
+                                    am very passionate and enthusiastic about creating constructive and efficient
+                                    solutions. I believe that having an open mind can help you remain creative and grasp
+                                    ideas from any subject to implement it in your field!
                                 </p>
                             </div>
                             <div className="detail-card-holder text-center">
@@ -58,7 +63,7 @@ class About extends Component{
                         <br/><br/>
                     </div>
                     <div>
-                        <div className="stack-title position-relative">
+                        <div className="page-title position-relative">
                             <h3>Known TechStack</h3>
                             <hr/>
                         </div>
@@ -67,7 +72,7 @@ class About extends Component{
                         <br/>
                         <div>
                             <div className="container">
-                                <div className="d-flex flex-wrap justify-content-evenly">
+                                <div className="d-flex  flex-wrap justify-content-evenly">
                                     <StackCard logo={java_logo} skill="Java"/>
                                     <StackCard logo={python_logo} skill="Python"/>
                                     <StackCard logo={js_logo} skill="Java"/>
@@ -90,8 +95,7 @@ class About extends Component{
                                     <StackCard logo={intellij_logo} skill="Intellij"/>
                                 </div>
                             </div>
-
-                            <br/>
+                            <br/><br/><br/>
                         </div>
                     </div>
                 </div>
@@ -99,5 +103,5 @@ class About extends Component{
         );
     }
 
-};
+}
 export default About;

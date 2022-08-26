@@ -32,10 +32,22 @@ hr{
   z-index: 1;
 }
 .page-description{
-  font-size: 18px;
+  font-size: 20px;
   text-align: center;
-  color: #6284d2;
+  color: #989eab;
   -webkit-text-stroke:0.5px #202a4b;
+}
+.page-title > h3 {
+  color: #888888;
+  background-color: #1b223a;
+  width: 250px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 5px 5px 10px #0e1520, -5px -5px 10px #141f30;
+
+  position: relative;
+  z-index: 10;
 }
 
 

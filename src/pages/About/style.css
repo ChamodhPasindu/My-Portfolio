@@ -1,17 +1,4 @@
 /*About-start*/
-.about-title > h3 {
-    color: #888888;
-    background-color: #1b223a;
-    width: 250px;
-    padding: 10px 10px 10px 10px;
-    border-radius: 8px;
-    text-align: center;
-    box-shadow: 5px 5px 10px #0e1520, -5px -5px 10px #141f30;
-
-    position: relative;
-    z-index: 10;
-}
-
 .p-holder {
     width: 70%;
     font-size: 18px;
@@ -51,18 +38,7 @@
 /*About-end*/
 
 /*stack-start*/
-.stack-title > h3 {
-    color: #888888;
-    background-color: #1b223a;
-    width: 250px;
-    padding: 10px 10px 10px 10px;
-    border-radius: 8px;
-    text-align: center;
-    box-shadow: 5px 5px 10px #0e1520, -5px -5px 10px #141f30;
 
-    position: relative;
-    z-index: 10;
-}
 
 .stack-card {
     height: 100%;
