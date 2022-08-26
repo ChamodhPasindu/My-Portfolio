@@ -1,0 +1,36 @@
+#certificate-img{
+    width: 350px;
+    height: 200px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+@media all and (min-width: 1400px)  {
+    #certificate-img{
+        width: 380px;
+        height: 220px;
+        margin-bottom: 30px;
+        border-radius: 5px;
+    }
+}
+@media all and (min-width: 992px) and (max-width: 1199px)   {
+    #certificate-img{
+        width: 420px;
+        height: 250px;
+        margin-bottom: 30px;
+        border-radius: 5px;
+    }
+}
+@media all and (min-width: 768px) and (max-width: 991px)   {
+    #certificate-img{
+        width: 320px;
+        height: 250px;
+        border-radius: 5px;
+    }
+}
+@media all and (min-width: 576px) and (max-width: 735px)   {
+    #certificate-img{
+        width: 250px;
+        height: 180px;
+        border-radius: 5px;
+    }
+}

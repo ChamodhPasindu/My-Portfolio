@@ -17,7 +17,6 @@ class Services extends Component {
                         here are some of my strongest skills!</p>
                     <br/><br/>
                     <div>
-                        <div className="container-md">
                             <div className="d-flex flex-wrap justify-content-evenly">
                                 <ServiceCard
                                     icon={<i className="bi bi-laptop"/>} title={"Web Development"}
@@ -29,7 +28,6 @@ class Services extends Component {
                                     icon={<i className="bi bi-palette"/>} title={"UX/UI Design"}
                                     paragraph={"I love to making wireframes and decent UI’s for get better web surfing experience to the people who like minimalism"}/>
                             </div>
-                        </div>
                     </div>
                     <br/><br/>
 

@@ -4,6 +4,7 @@ import Home from "../pages/Home";
 import About from "../pages/About";
 import Services from "../pages/Services";
 import Projects from "../pages/Projects";
+import Certificate from "../pages/Certificate";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
             <About/>
             <Services/>
             <Projects/>
+            <Certificate/>
         </Fragment>
     );
 }

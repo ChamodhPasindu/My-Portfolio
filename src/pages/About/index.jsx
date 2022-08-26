@@ -71,7 +71,7 @@ class About extends Component {
                         <p className="page-description">Technology i've worked & dabbled with</p>
                         <br/>
                         <div>
-                            <div className="container-md">
+                            <div className="container-m">
                                 <div className="d-flex flex-wrap justify-content-evenly">
                                     <StackCard logo={java_logo} skill="Java"/>
                                     <StackCard logo={python_logo} skill="Python"/>
