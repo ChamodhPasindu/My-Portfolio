@@ -49,5 +49,22 @@ hr{
   position: relative;
   z-index: 10;
 }
+.explore-more-btn{
+  background-color: transparent;
+  color: #7C5EF2!important;
+  font-weight: bold;
+  font-size: 18px;
+  border: 0;
+}
+.explore-more-btn:hover{
+  border-radius: 5px;
+  background-color: #202a4b;
+  border:  2px solid #7C5EF2;
+}
+.explore-more-btn>i{
+  font-size: 15px;
+  color: #7C5EF2;
+  padding-top:10px ;
+}
 
 

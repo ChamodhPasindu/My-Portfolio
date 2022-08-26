@@ -1,0 +1,71 @@
+.project-card{
+    width: 300px;
+    height: 430px;
+    border-radius: 10px;
+    background-color: #1b223a;
+    box-shadow: 5px 5px 10px #0e1520, -5px -5px 10px #141f30;
+    margin-bottom: 40px;
+}
+.project-card>img{
+    width: 100%;
+    height: 40%;
+    border-radius: 10px;
+    opacity: 90%;
+
+}
+.project-card>h1{
+    padding-top: 20px;
+    height: 10%;
+    width: 90%;
+    font-size: 20px;
+    color: #CDCDCD;
+}
+.project-paragraph{
+    padding-top: 8px;
+    height: 32%;
+    color: #888888;
+    font-size: 17px;
+    line-height: 1.4;
+}
+.github-project-icon{
+    color: #888888;
+    font-size: 40px;
+}
+.github-project-icon:hover{
+    color: #7C5EF2;
+
+}
+.tech-name>p{
+    color:#7C5EF2;
+    font-size: 15px;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+@media all and (min-width: 1400px) {
+    .project-card {
+        width: 350px;
+    }
+}
+@media all and (min-width: 992px) and (max-width: 1199px) {
+    .project-card{
+        width: 280px;
+        margin-bottom: 20px;
+    }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+    .project-card{
+        width: 300px;
+        margin-bottom: 30px;
+    }
+}
+@media all and (min-width: 320px)  and (max-width: 991px){
+    .project-card{
+        height: 380px;
+    }
+    .project-card>h1 {
+        font-size: 17px;
+    }
+    .project-paragraph {
+        font-size: 16px;
+    }
+    }
