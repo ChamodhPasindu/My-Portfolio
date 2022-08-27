@@ -13,13 +13,13 @@ class Certificate extends Component{
     render() {
         return(
             <Fragment>
-                <div id="certificates" className="container-md">
+                <div data-aos="zoom-in" id="certificates" className="container-md">
                     <div className="page-title position-relative">
                         <h3>Certificates</h3>
                         <hr/>
                     </div>
                     <br/><br/><br/>
-                    <div className="d-flex flex-wrap justify-content-evenly">
+                    <div data-aos="zoom-in" className="d-flex flex-wrap justify-content-evenly">
                         <CertificateCard link={"https://drive.google.com/drive/u/0/folders/1cL2uwJrwYKq_UcvuzJ-_bK_s2lYxW1Jd"} img={js}/>
                         <CertificateCard link={"https://drive.google.com/drive/u/0/folders/1cL2uwJrwYKq_UcvuzJ-_bK_s2lYxW1Jd"} img={python}/>
                         <CertificateCard link={"https://drive.google.com/drive/u/0/folders/1cL2uwJrwYKq_UcvuzJ-_bK_s2lYxW1Jd"} img={google}/>
@@ -29,7 +29,7 @@ class Certificate extends Component{
                     </div>
                     <br/>
                     <div className="d-flex justify-content-center">
-                        <a href="https://drive.google.com/drive/u/0/folders/1cL2uwJrwYKq_UcvuzJ-_bK_s2lYxW1Jd" target="_blank">
+                        <a data-aos="fade-left" href="https://drive.google.com/drive/u/0/folders/1cL2uwJrwYKq_UcvuzJ-_bK_s2lYxW1Jd" target="_blank">
                             <button type="button" className="explore-more-btn">Explore more <i
                                 className="bi bi-caret-right-fill"/><i
                                 className="bi bi-caret-right-fill"/></button>

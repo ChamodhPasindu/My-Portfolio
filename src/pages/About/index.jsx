@@ -1,4 +1,4 @@
-import React, {Component, Fragment} from 'react';
+import React, {Component, Fragment, useEffect} from 'react';
 import "./style.css"
 import "../../index.css"
 import java_logo from "../../assets/icon/Java10x.png"
@@ -22,19 +22,28 @@ import npm_logo from "../../assets/icon/NPM10x.png"
 import vsCode_logo from "../../assets/icon/Visual Studio Code 201910x.png"
 import intellij_logo from "../../assets/icon/IntelliJ IDEA10x.png"
 import StackCard from "./StackCard";
+import Aos from "aos"
+import "aos/dist/aos.css"
 
 class About extends Component {
+
+    componentDidMount() {
+        Aos.init({duration:2000});
+
+    }
+
     render() {
+
         return (
             <Fragment>
-                <div id="about-me"  className="container-md ">
+                <div data-aos="zoom-in" id="about-me" className="container-md ">
                     <div>
                         <div className="page-title position-relative">
                             <h3>About Me</h3>
                             <hr/>
                         </div>
                         <br/><br/>
-                        <div className="d-flex justify-content-around align-items-center about-content-area">
+                        <div  data-aos="fade-up" className="d-flex justify-content-around align-items-center about-content-area">
                             <div className=" p-holder">
                                 <p>
                                     A full-stack software developer working on java & javascript. Having a great passion
@@ -49,7 +58,7 @@ class About extends Component {
                                     ideas from any subject to implement it in your field!
                                 </p>
                             </div>
-                            <div className="detail-card-holder text-center">
+                            <div data-aos="zoom-in-left" className="detail-card-holder text-center">
                                 <div>
                                     <h1>20+</h1>
                                     <h6>Completed Project</h6>
@@ -62,7 +71,7 @@ class About extends Component {
                         </div>
                     </div>
                     <div>
-                        <div className="page-title position-relative">
+                        <div data-aos="zoom-in" className="page-title position-relative">
                             <h3>Known TechStack</h3>
                             <hr/>
                         </div>
@@ -70,7 +79,7 @@ class About extends Component {
                         <p className="page-description">Technology i've worked & dabbled with</p>
                         <br/>
                         <div>
-                            <div className="container-md">
+                            <div  data-aos="fade-up"  className="container-md">
                                 <div className="d-flex flex-wrap justify-content-evenly">
                                     <StackCard logo={java_logo} skill="Java"/>
                                     <StackCard logo={python_logo} skill="Python"/>

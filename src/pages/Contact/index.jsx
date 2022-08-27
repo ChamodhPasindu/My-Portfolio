@@ -7,7 +7,7 @@ class Contact extends Component {
         return (
             <Fragment>
                 <div id="contacts" className="container-md">
-                    <div className="page-title position-relative">
+                    <div data-aos="zoom-in" className="page-title position-relative">
                         <h3>Contact Me</h3>
                         <hr/>
                     </div>
@@ -16,17 +16,17 @@ class Contact extends Component {
                         say hello, I'll try my best to get back to you! Feel free to get in touch and talk more about
                         your projects.</p>
                     <br/><br/>
-                    <div className="d-flex justify-content-evenly">
-                        <a href="mailto:chamodhpasindu@gmail.com">
+                    <div  className="d-flex justify-content-evenly">
+                        <a data-aos="zoom-in" href="mailto:chamodhpasindu@gmail.com">
                             <button className=" contact-btn" >Mail Me</button>
                         </a>
-                        <a href="" target="_blank">
+                        <a data-aos="zoom-in" href="" target="_blank">
                             <button className=" contact-btn">Get Resume</button>
                         </a>
                     </div>
                     <br/><br/>
                     <div className="d-flex mt-3 justify-content-center w-100">
-                        <div className="d-flex flex-wrap w-75 justify-content-evenly contact-card-holder">
+                        <div data-aos="zoom-out" className="d-flex flex-wrap w-75 justify-content-evenly contact-card-holder">
                             <ContactInfo icon={<i className="bi bi-geo-alt-fill"/>} title={"Address"}
                                          detail={"Piliyandala,Sri Lanka"}/>
                             <ContactInfo icon={<i className="bi bi-telephone-fill"/>} title={"Mobile Number"}

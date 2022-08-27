@@ -4,13 +4,22 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import my_img from "../../assets/img/my-img.jpg"
 import grid_design from "../../assets/img/grid-design.png"
 
+import Aos from "aos"
+import "aos/dist/aos.css"
+
 class Home extends Component {
+
+    componentDidMount() {
+        Aos.init({duration:2200});
+
+    }
+
     render() {
         return (
             <Fragment>
-                <div id="hero" className="container-md home-viewport-custom d-flex justify-content-around align-items-center">
-                    <div className="home-social-box  d-flex flex-column align-items-center justify-content-center">
-                        <div className="div-social-link d-flex flex-column align-items-center justify-content-evenly">
+                <div id="hero"  className="container-md home-viewport-custom d-flex justify-content-around align-items-center">
+                    <div data-aos="fade-down-right" className="home-social-box  d-flex flex-column align-items-center justify-content-center">
+                        <div  className="div-social-link d-flex flex-column align-items-center justify-content-evenly">
                             <div>
                                 <a href="https://github.com/ChamodhPasindu" target="_blank">
                                     <i id="github" className="bi bi-github"/>
@@ -35,7 +44,7 @@ class Home extends Component {
                             <h5 className="position-absolute">Follow Me</h5>
                         </div>
                     </div>
-                    <div className="home-hello-box d-flex flex-row align-items-center">
+                    <div data-aos="fade-down-right" className="home-hello-box d-flex flex-row align-items-center">
                         <div>
                             <h4>Hello! I am</h4>
                             <h1>Chamodh pasindu.</h1>
@@ -47,7 +56,7 @@ class Home extends Component {
                             </a>
                         </div>
                     </div>
-                    <div className="home-photo-box  position-relative">
+                    <div data-aos="fade-down-left" className="home-photo-box  position-relative">
                         <img id="home-grid-img-design" src={grid_design} alt="grid design"/>
                         <img id="home-my-photo-design" src={my_img} alt="my photo"/>
                         <div id="home-img-design"/>

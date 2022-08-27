@@ -5,7 +5,7 @@ class ProjectCard extends Component {
     render() {
         return (
             <Fragment>
-                <div className="project-card">
+                <div data-aos="zoom-in" className="project-card">
                     <img src={this.props.img} alt=""/>
                     <h1 className="me-3 ms-3">
                         {this.props.title}

@@ -5,7 +5,7 @@ class ServiceCard extends Component{
     render() {
         return(
             <Fragment>
-                <div className="service-card text-center">
+                <div data-aos="zoom-in" className="service-card text-center">
                     <div className="service-icon ">
                         {this.props.icon}
                     </div>

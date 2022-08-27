@@ -8,7 +8,7 @@ class Services extends Component {
         return (
             <Fragment>
                 <div id="services" className="container-md">
-                    <div className="page-title position-relative">
+                    <div data-aos="zoom-in" className="page-title position-relative">
                         <h3>My Services</h3>
                         <hr/>
                     </div>
@@ -17,7 +17,7 @@ class Services extends Component {
                         here are some of my strongest skills!</p>
                     <br/><br/>
                     <div>
-                            <div className="d-flex flex-wrap justify-content-evenly">
+                            <div  className="d-flex flex-wrap justify-content-evenly">
                                 <ServiceCard
                                     icon={<i className="bi bi-laptop"/>} title={"Web Development"}
                                     paragraph={"I’m always ready to make a custom portable robust product that fits the need of any client"}/>

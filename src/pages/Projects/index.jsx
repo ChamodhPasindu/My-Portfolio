@@ -11,7 +11,7 @@ class Projects extends Component {
     render() {
         return (
             <Fragment>
-                <div id="projects" className="container-md">
+                <div data-aos="zoom-in" id="projects" className="container-md">
                     <div className="page-title position-relative">
                         <h3>Projects</h3>
                         <hr/>
@@ -19,7 +19,7 @@ class Projects extends Component {
                     <br/>
                     <p className="page-description">Here's some of my projects that I have worked on.</p>
                     <br/>
-                    <div className="d-flex flex-wrap justify-content-evenly">
+                    <div  className="d-flex flex-wrap justify-content-evenly">
                         <ProjectCard img={student_system} title={"Student Management System"}
                                      link={"https://github.com/ChamodhPasindu/Student-Management-System-ORM"}
                                      paragraph={"Implementation of desktop application for sipsewana institute for manage all student details."}
@@ -46,7 +46,7 @@ class Projects extends Component {
                                      first={"java"} second={"spring"} third={"hibernate"}/>
                     </div>
                     <div className="d-flex justify-content-center">
-                        <a href="https://github.com/ChamodhPasindu" target="_blank">
+                        <a data-aos="fade-left" href="https://github.com/ChamodhPasindu" target="_blank">
                             <button type="button" className="explore-more-btn">Explore more <i
                                 className="bi bi-caret-right-fill"/><i
                                 className="bi bi-caret-right-fill"/></button>
