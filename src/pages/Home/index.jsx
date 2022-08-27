@@ -11,7 +11,6 @@ class Home extends Component {
 
     componentDidMount() {
         Aos.init({duration:2200});
-
     }
 
     render() {

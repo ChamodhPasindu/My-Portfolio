@@ -16,8 +16,8 @@
 .detail-card-holder > div {
     height: 45%;
     border-radius: 10px;
-    background-color: #1b223a;
-    box-shadow: 5px 5px 10px #0e1520, -5px -5px 10px #141f30;
+    background: linear-gradient(145deg, #181f34, #1d243e);
+    box-shadow:  5px 5px 5px #101523;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -46,8 +46,8 @@
     display: flex;
     border-radius: 10px;
     align-items: center;
-    background-color: #1b223a;
-    box-shadow: 5px 5px 10px #0e1520, -5px -5px 10px #141f30;
+    background: linear-gradient(145deg, #181f34, #1d243e);
+    box-shadow:  5px 5px 5px #101523;
 }
 
 .stack-card img {

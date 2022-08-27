@@ -2,7 +2,7 @@ import {Component, Fragment} from "react";
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap/dist/js/bootstrap.bundle.min"
 import "./style.css"
-import {Link,animateScroll} from "react-scroll"
+import {Link} from "react-scroll"
 
 class Navbar extends Component {
     constructor(props) {
@@ -35,7 +35,7 @@ class Navbar extends Component {
     render() {
         return (
             <Fragment>
-                <nav className="navbar navbar-expand-lg sticky-top">
+                <nav data-aos="fade-down" className="navbar navbar-expand-lg sticky-top">
                     <div className="container-xl mt-2">
                         <button className="bg-transparent fw-bolder fs-5 name-logo">
                             Chamodh

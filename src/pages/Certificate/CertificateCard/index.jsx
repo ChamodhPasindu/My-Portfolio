@@ -5,7 +5,7 @@ class CertificateCard extends  Component{
         return(
             <Fragment>
                 <a data-aos="zoom-in" className="position-relative" href={this.props.img} target="_blank">
-                    <img id="certificate-img"  src={this.props.img} alt=""/>
+                    <img id="certificate-img"  src={this.props.img} alt="images"/>
                     <div className="blur-slider">
                     </div>
 

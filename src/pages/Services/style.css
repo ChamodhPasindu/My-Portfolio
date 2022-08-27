@@ -2,8 +2,8 @@
     width: 320px;
     height:400px;
     border-radius: 10px;
-    background-color: #1b223a;
-    box-shadow: 5px 5px 10px #0e1520, -5px -5px 10px #141f30;
+    background: linear-gradient(145deg, #181f34, #1d243e);
+    box-shadow:  5px 5px 5px #101523;
     margin-bottom: 50px;
 }
 .service-title-div>h1{

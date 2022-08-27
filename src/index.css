@@ -6,6 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color:#111A28 !important ;
+  height: 100vh;
 }
 
 code {
@@ -21,6 +22,13 @@ code {
 ::-webkit-scrollbar-thumb {
   background: #555;
 }
+
+.loading-spinner{
+  position: static!important;
+  display: block;
+  transform: none!important;
+}
+
 hr{
   position: absolute;
   top: 10px;
@@ -42,12 +50,13 @@ hr{
 }
 .page-title > h3 {
   color: #888888;
-  background-color: #1b223a;
   width: 250px;
   padding: 10px 10px 10px 10px;
   border-radius: 8px;
   text-align: center;
-  box-shadow: 5px 5px 10px #0e1520, -5px -5px 10px #141f30;
+  background: linear-gradient(145deg, #121c2b, #0f1724);
+  box-shadow:  5px 5px 6px #090d14,
+  -5px -5px 6px #1a273c;
   margin-top: 50px;
 
   position: relative;
@@ -58,13 +67,14 @@ hr{
   color: #7C5EF2!important;
   font-weight: bold;
   font-size: 18px;
-  border:  1px solid #111A28;
+  border:  2px solid #111A28;
   padding: 10px;
 }
 .explore-more-btn:hover{
   border-radius: 8px;
   background-color: #202a4b;
-  border:  1px solid #7C5EF2;
+  border:  2px solid #7C5EF2;
+  box-shadow: 5px 5px 10px #0e1520, -5px -5px 10px #141f30;
 }
 .explore-more-btn>i{
   font-size: 15px;

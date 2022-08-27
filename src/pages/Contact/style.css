@@ -7,6 +7,8 @@
     color: #7C5EF2!important;
     font-weight: bold;
     font-size: 18px;
+    box-shadow:  5px 5px 5px #101523;
+
 }
 .contact-btn:hover {
     border-radius: 5px;

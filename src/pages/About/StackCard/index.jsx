@@ -7,7 +7,7 @@ class StackCard extends Component{
     render() {
         return(
             <Fragment>
-                <div className="mb-3 stack-card text-center">
+                <div data-aos="zoom-in" className="mb-3 stack-card text-center">
                     <div style={{width:"40%"}}>
                         <img src={this.props.logo} alt="java logo"/>
                     </div>

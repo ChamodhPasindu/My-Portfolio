@@ -20,13 +20,13 @@ class Contact extends Component {
                         <a data-aos="zoom-in" href="mailto:chamodhpasindu@gmail.com">
                             <button className=" contact-btn" >Mail Me</button>
                         </a>
-                        <a data-aos="zoom-in" href="" target="_blank">
+                        <a data-aos="zoom-in">
                             <button className=" contact-btn">Get Resume</button>
                         </a>
                     </div>
                     <br/><br/>
                     <div className="d-flex mt-3 justify-content-center w-100">
-                        <div data-aos="zoom-out" className="d-flex flex-wrap w-75 justify-content-evenly contact-card-holder">
+                        <div data-aos="zoom-in" className="d-flex flex-wrap w-75 justify-content-evenly contact-card-holder">
                             <ContactInfo icon={<i className="bi bi-geo-alt-fill"/>} title={"Address"}
                                          detail={"Piliyandala,Sri Lanka"}/>
                             <ContactInfo icon={<i className="bi bi-telephone-fill"/>} title={"Mobile Number"}

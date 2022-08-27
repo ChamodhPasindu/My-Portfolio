@@ -21,8 +21,8 @@
     width: 45%;
     height: 35%;
     border-radius: 10px;
-    background-color: #1b223a;
-    box-shadow: 5px 5px 10px #0e1520, -5px 5px 10px #141f30;
+    background: linear-gradient(145deg, #181f34, #1d243e);
+    box-shadow:  5px 5px 5px #101523;
 }
 
 .empty-line-div {
@@ -36,8 +36,8 @@
     width: 55%;
     height: 50%;
     border-radius: 10px;
-    background-color: #1b223a;
-    box-shadow: 5px 5px 10px #0e1520, -5px -5px 10px #141f30;
+    background: linear-gradient(145deg, #181f34, #1d243e);
+    box-shadow:  5px 5px 5px #101523;
 }
 
 .div-follow-me > h5 {
@@ -134,6 +134,8 @@
     font-size: 25px;
     font-weight: bold;
     margin-top: 30px;
+    box-shadow: 5px 5px 10px #0e1520, -5px -5px 10px #141f30;
+
 }
 
 .home-hello-box > div  button:hover {
@@ -179,7 +181,7 @@
     }
 
     .home-social-box {
-        transform: rotate(90deg);
+        transform: rotate(90deg)!important;
         margin-bottom: 20px;
         position: absolute;
     }

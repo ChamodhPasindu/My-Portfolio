@@ -20,12 +20,12 @@ class Certificate extends Component{
                     </div>
                     <br/><br/><br/>
                     <div data-aos="zoom-in" className="d-flex flex-wrap justify-content-evenly">
-                        <CertificateCard link={"https://drive.google.com/drive/u/0/folders/1cL2uwJrwYKq_UcvuzJ-_bK_s2lYxW1Jd"} img={js}/>
-                        <CertificateCard link={"https://drive.google.com/drive/u/0/folders/1cL2uwJrwYKq_UcvuzJ-_bK_s2lYxW1Jd"} img={python}/>
-                        <CertificateCard link={"https://drive.google.com/drive/u/0/folders/1cL2uwJrwYKq_UcvuzJ-_bK_s2lYxW1Jd"} img={google}/>
-                        <CertificateCard link={"https://drive.google.com/drive/u/0/folders/1cL2uwJrwYKq_UcvuzJ-_bK_s2lYxW1Jd"} img={java}/>
-                        <CertificateCard link={"https://drive.google.com/drive/u/0/folders/1cL2uwJrwYKq_UcvuzJ-_bK_s2lYxW1Jd"} img={sql}/>
-                        <CertificateCard link={"https://drive.google.com/drive/u/0/folders/1cL2uwJrwYKq_UcvuzJ-_bK_s2lYxW1Jd"} img={css}/>
+                        <CertificateCard img={js}/>
+                        <CertificateCard img={python}/>
+                        <CertificateCard img={google}/>
+                        <CertificateCard img={java}/>
+                        <CertificateCard img={sql}/>
+                        <CertificateCard img={css}/>
                     </div>
                     <br/>
                     <div className="d-flex justify-content-center">
