@@ -2,6 +2,7 @@ import {Component, Fragment} from "react";
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap/dist/js/bootstrap.bundle.min"
 import "./style.css"
+import {Link,animateScroll} from "react-scroll"
 
 class Navbar extends Component {
     constructor(props) {
@@ -48,27 +49,27 @@ class Navbar extends Component {
                              id="navbarNav">
                             <ul id="nav-list" className="navbar-nav">
                                 <li className="nav-item ms-4">
-                                    <a id="home" className="nav-link active" href="#"
-                                       onClick={this.changeActive}>HOME</a>
+                                    <Link id="home" className="nav-link active" to="top" smoth={true} duratoin={1000}
+                                          onClick={this.changeActive}>HOME</Link>
                                 </li>
                                 <li className="nav-item ms-4">
-                                    <a id="about" className="nav-link " href="#" onClick={this.changeActive}>ABOUT</a>
+                                    <Link id="about" className="nav-link " to="about-me" smoth={true} duratoin={1000} onClick={this.changeActive}>ABOUT</Link>
                                 </li>
                                 <li className="nav-item ms-4">
-                                    <a id="service" className="nav-link" href="#"
-                                       onClick={this.changeActive}>SERVICES</a>
+                                    <Link id="service" className="nav-link" to="services" smoth={true} duratoin={1000}
+                                       onClick={this.changeActive}>SERVICES</Link>
                                 </li>
                                 <li className="nav-item ms-4">
-                                    <a id="project" className="nav-link" href="#"
-                                       onClick={this.changeActive}>PROJECTS</a>
+                                    <Link id="project" className="nav-link" to="projects" smoth={true} duratoin={1000}
+                                       onClick={this.changeActive}>PROJECTS</Link>
                                 </li>
                                 <li className="nav-item ms-4">
-                                    <a id="certificate" className="nav-link" href="#"
-                                       onClick={this.changeActive}>CERTIFICATES</a>
+                                    <Link id="certificate" className="nav-link" to="certificates" smoth={true} duratoin={1000}
+                                       onClick={this.changeActive}>CERTIFICATES</Link>
                                 </li>
                                 <li className="nav-item ms-4">
-                                    <a id="contact" className="nav-link" href="#"
-                                       onClick={this.changeActive}>CONTACTS</a>
+                                    <Link id="contact" className="nav-link" to="contacts" smoth={true} duratoin={1000}
+                                       onClick={this.changeActive}>CONTACTS</Link>
                                 </li>
                             </ul>
                         </div>

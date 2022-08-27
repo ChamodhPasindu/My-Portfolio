@@ -13,7 +13,7 @@ class Certificate extends Component{
     render() {
         return(
             <Fragment>
-                <div className="container-md">
+                <div id="certificates" className="container-md">
                     <div className="page-title position-relative">
                         <h3>Certificates</h3>
                         <hr/>

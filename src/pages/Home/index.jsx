@@ -8,7 +8,7 @@ class Home extends Component {
     render() {
         return (
             <Fragment>
-                <div className="container-md home-viewport-custom d-flex justify-content-around align-items-center">
+                <div id="hero" className="container-md home-viewport-custom d-flex justify-content-around align-items-center">
                     <div className="home-social-box  d-flex flex-column align-items-center justify-content-center">
                         <div className="div-social-link d-flex flex-column align-items-center justify-content-evenly">
                             <div>
@@ -42,7 +42,9 @@ class Home extends Component {
                             <h2>Full Stack Developer</h2>
                             <p>I'm currently focused on expanding my experience designing and developing high performing
                                 websites.</p>
-                            <button type="button" className="btn">Get In Touch</button>
+                            <a href="#contacts">
+                                <button type="button" className="btn">Get In Touch</button>
+                            </a>
                         </div>
                     </div>
                     <div className="home-photo-box  position-relative">

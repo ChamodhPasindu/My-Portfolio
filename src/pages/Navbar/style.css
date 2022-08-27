@@ -12,7 +12,7 @@
 }
 
 .navbar-nav {
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .navbar-toggler {
@@ -21,6 +21,7 @@
 
 .navbar .navbar-nav .nav-link:hover {
     position: relative;
+    cursor: pointer;
 }
 
 .navbar .navbar-nav .nav-link:hover:after {

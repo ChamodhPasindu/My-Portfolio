@@ -128,7 +128,7 @@
     font-weight: 300;
 }
 
-.home-hello-box > div > button {
+.home-hello-box > div  button {
     color: white;
     background-color: #7C5EF2;
     font-size: 25px;
@@ -136,7 +136,7 @@
     margin-top: 30px;
 }
 
-.home-hello-box > div > button:hover {
+.home-hello-box > div  button:hover {
     color: #7C5EF2;
     background-color: white;
 }

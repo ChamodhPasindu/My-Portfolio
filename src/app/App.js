@@ -12,9 +12,9 @@ import Footer from "../pages/Footer";
 function App() {
     return (
         <Fragment>
-            <Navbar/>
-            <Home/>
-            <About/>
+            <Navbar about-id="#about"/>
+            <Home />
+            <About id="about"/>
              <Services/>
             <Projects/>
             <Certificate/>

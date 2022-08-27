@@ -27,7 +27,7 @@ class About extends Component {
     render() {
         return (
             <Fragment>
-                <div className="container-md ">
+                <div id="about-me"  className="container-md ">
                     <div>
                         <div className="page-title position-relative">
                             <h3>About Me</h3>

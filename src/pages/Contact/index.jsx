@@ -6,7 +6,7 @@ class Contact extends Component {
     render() {
         return (
             <Fragment>
-                <div className="container-md">
+                <div id="contacts" className="container-md">
                     <div className="page-title position-relative">
                         <h3>Contact Me</h3>
                         <hr/>
@@ -25,7 +25,7 @@ class Contact extends Component {
                         </a>
                     </div>
                     <br/><br/>
-                    <div className="d-flex justify-content-center w-100">
+                    <div className="d-flex mt-3 justify-content-center w-100">
                         <div className="d-flex flex-wrap w-75 justify-content-evenly contact-card-holder">
                             <ContactInfo icon={<i className="bi bi-geo-alt-fill"/>} title={"Address"}
                                          detail={"Piliyandala,Sri Lanka"}/>

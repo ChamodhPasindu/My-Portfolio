@@ -7,7 +7,7 @@ class Footer extends Component{
             <Fragment>
                 <div className="footer-div">
                     <div className="text-center ps-1 pe-1">
-                        <h6>Designed and Developed by Chamodh Pasindu.</h6>
+                        <h6>Designed and Developed by <b>Chamodh Pasindu</b>.</h6>
                         <h6>Built with <span>React.js</span> & <span>Bootstrap</span>. Hosted on <span>Github Pages</span>.</h6>
                     </div>
                 </div>

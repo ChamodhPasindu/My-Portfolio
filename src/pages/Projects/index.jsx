@@ -11,7 +11,7 @@ class Projects extends Component {
     render() {
         return (
             <Fragment>
-                <div className="container-md">
+                <div id="projects" className="container-md">
                     <div className="page-title position-relative">
                         <h3>Projects</h3>
                         <hr/>
