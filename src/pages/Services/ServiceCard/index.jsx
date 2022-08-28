@@ -1,9 +1,9 @@
 import React, {Component, Fragment} from "react";
 import "bootstrap-icons/font/bootstrap-icons.css";
 
-class ServiceCard extends Component{
+class ServiceCard extends Component {
     render() {
-        return(
+        return (
             <Fragment>
                 <div data-aos="zoom-in" className="service-card text-center">
                     <div className="service-icon ">
@@ -24,4 +24,5 @@ class ServiceCard extends Component{
         )
     }
 }
+
 export default ServiceCard

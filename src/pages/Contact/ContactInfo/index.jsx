@@ -1,8 +1,8 @@
 import {Component, Fragment} from "react";
 
-class ContactInfo extends Component{
+class ContactInfo extends Component {
     render() {
-        return(
+        return (
             <Fragment>
                 <div className="contact-info-card">
                     <div className="icon-div">
@@ -21,4 +21,5 @@ class ContactInfo extends Component{
         )
     }
 }
+
 export default ContactInfo

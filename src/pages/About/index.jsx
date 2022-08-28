@@ -1,4 +1,4 @@
-import React, {Component, Fragment, useEffect} from 'react';
+import React, {Component, Fragment} from 'react';
 import "./style.css"
 import "../../index.css"
 import java_logo from "../../assets/icon/Java10x.png"
@@ -22,18 +22,9 @@ import npm_logo from "../../assets/icon/NPM10x.png"
 import vsCode_logo from "../../assets/icon/Visual Studio Code 201910x.png"
 import intellij_logo from "../../assets/icon/IntelliJ IDEA10x.png"
 import StackCard from "./StackCard";
-import Aos from "aos"
-import "aos/dist/aos.css"
 
 class About extends Component {
-
-    componentDidMount() {
-        Aos.init({duration:2000});
-
-    }
-
     render() {
-
         return (
             <Fragment>
                 <div data-aos="zoom-in" id="about-me" className="container-md ">
@@ -43,7 +34,8 @@ class About extends Component {
                             <hr/>
                         </div>
                         <br/><br/>
-                        <div  data-aos="fade-up" className="d-flex justify-content-around align-items-center about-content-area">
+                        <div data-aos="fade-up"
+                             className="d-flex justify-content-around align-items-center about-content-area">
                             <div className=" p-holder">
                                 <p>
                                     A full-stack software developer working on java & javascript. Having a great passion
@@ -110,6 +102,6 @@ class About extends Component {
             </Fragment>
         );
     }
-
 }
+
 export default About;

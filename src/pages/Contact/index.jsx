@@ -42,13 +42,13 @@ class Contact extends Component {
                                         <h4>Social Profile</h4>
                                     </div>
                                     <h5>
-                                        <a href="https://github.com/ChamodhPasindu" target="_blank">
+                                        <a href="https://github.com/ChamodhPasindu" target="_blank" rel="noreferrer">
                                             <i className="bi bi-github fs-3 me-3 "/>
                                         </a>
-                                        <a href="https://twitter.com/chamodh_pasindu"  target="_blank">
+                                        <a href="https://twitter.com/chamodh_pasindu"  target="_blank" rel="noreferrer">
                                             <i className="bi bi-twitter fs-3 me-3"/>
                                         </a>
-                                        <a href="https://www.linkedin.com/in/chamodh-pasindu-9b6178217/"  target="_blank">
+                                        <a href="https://www.linkedin.com/in/chamodh-pasindu-9b6178217/"  target="_blank" rel="noreferrer">
                                             <i className="bi bi-linkedin fs-3"/>
                                         </a>
                                     </h5>

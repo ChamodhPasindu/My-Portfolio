@@ -11,8 +11,8 @@ class Projects extends Component {
     render() {
         return (
             <Fragment>
-                <div data-aos="zoom-in" id="projects" className="container-md">
-                    <div className="page-title position-relative">
+                <div  id="projects" className="container-md">
+                    <div data-aos="zoom-in" className="page-title position-relative">
                         <h3>Projects</h3>
                         <hr/>
                     </div>
@@ -46,7 +46,7 @@ class Projects extends Component {
                                      first={"java"} second={"spring"} third={"hibernate"}/>
                     </div>
                     <div className="d-flex justify-content-center">
-                        <a data-aos="fade-left" href="https://github.com/ChamodhPasindu" target="_blank">
+                        <a data-aos="fade-left" href="https://github.com/ChamodhPasindu" target="_blank" rel="noreferrer">
                             <button type="button" className="explore-more-btn">Explore more <i
                                 className="bi bi-caret-right-fill"/><i
                                 className="bi bi-caret-right-fill"/></button>

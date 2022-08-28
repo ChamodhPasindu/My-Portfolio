@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap/dist/js/bootstrap.bundle.min"
 import "./style.css"
 import {Link} from "react-scroll"
+import Aos from "aos";
 
 class Navbar extends Component {
     constructor(props) {
@@ -10,6 +11,10 @@ class Navbar extends Component {
         this.state = {
             ids: []
         }
+    }
+
+    componentDidMount() {
+        Aos.init({duration: 2000});
     }
 
     changeActive = (e) => {
@@ -23,12 +28,10 @@ class Navbar extends Component {
 
         home.classList.remove("active")
 
-        {
-            this.state.ids.map((id) => (
-                id.classList.remove("active")
+        this.state.ids.map((id) => (
+            id.classList.remove("active")
 
-            ))
-        }
+        ))
         e.currentTarget.classList.add("active")
     }
 
@@ -49,27 +52,29 @@ class Navbar extends Component {
                              id="navbarNav">
                             <ul id="nav-list" className="navbar-nav">
                                 <li className="nav-item ms-4">
-                                    <Link id="home" className="nav-link active" to="top" smoth={true} duratoin={1000}
+                                    <Link id="home" className="nav-link active" to="top" duratoin={1000}
                                           onClick={this.changeActive}>HOME</Link>
                                 </li>
                                 <li className="nav-item ms-4">
-                                    <Link id="about" className="nav-link " to="about-me" smoth={true} duratoin={1000} onClick={this.changeActive}>ABOUT</Link>
+                                    <Link id="about" className="nav-link " to="about-me" duratoin={1000}
+                                          onClick={this.changeActive}>ABOUT</Link>
                                 </li>
                                 <li className="nav-item ms-4">
-                                    <Link id="service" className="nav-link" to="services" smoth={true} duratoin={1000}
-                                       onClick={this.changeActive}>SERVICES</Link>
+                                    <Link id="service" className="nav-link" to="services" duratoin={1000}
+                                          onClick={this.changeActive}>SERVICES</Link>
                                 </li>
                                 <li className="nav-item ms-4">
-                                    <Link id="project" className="nav-link" to="projects" smoth={true} duratoin={1000}
-                                       onClick={this.changeActive}>PROJECTS</Link>
+                                    <Link id="project" className="nav-link" to="projects" duratoin={1000}
+                                          onClick={this.changeActive}>PROJECTS</Link>
                                 </li>
                                 <li className="nav-item ms-4">
-                                    <Link id="certificate" className="nav-link" to="certificates" smoth={true} duratoin={1000}
-                                       onClick={this.changeActive}>CERTIFICATES</Link>
+                                    <Link id="certificate" className="nav-link" to="certificates"
+                                          duratoin={1000}
+                                          onClick={this.changeActive}>CERTIFICATES</Link>
                                 </li>
                                 <li className="nav-item ms-4">
-                                    <Link id="contact" className="nav-link" to="contacts" smoth={true} duratoin={1000}
-                                       onClick={this.changeActive}>CONTACTS</Link>
+                                    <Link id="contact" className="nav-link" to="contacts" duratoin={1000}
+                                          onClick={this.changeActive}>CONTACTS</Link>
                                 </li>
                             </ul>
                         </div>

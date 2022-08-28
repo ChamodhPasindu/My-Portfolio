@@ -7,29 +7,29 @@ import Projects from "../pages/Projects";
 import Certificate from "../pages/Certificate";
 import Contact from "../pages/Contact";
 import Footer from "../pages/Footer";
-import {HashLoader, ScaleLoader} from "react-spinners";
-
+import {HashLoader} from "react-spinners";
 
 function App() {
-    const [loading,setLoading]=useState(false)
+    const [loading, setLoading] = useState(false)
 
-    useEffect(()=>{
-        setLoading(true);
-        setTimeout(()=>{
-            setLoading(false);
-        },2000);
-    },[]);
+    useEffect(() => {
+            setLoading(true);
+            setTimeout(() => {
+                setLoading(false);
+            }, 2000);
+        }
+        , []);
 
     return (
         <Fragment>
             <div>
-                {loading?(
-                    <HashLoader className="loading-spinner" color={"#7C5EF2"}   size={90} />
-                ):(
+                {loading ? (
+                    <HashLoader className="loading-spinner" color={"#7C5EF2"} size={90}/>
+                ) : (
                     <div>
-                        <Navbar about-id="#about"/>
-                        <Home />
-                       <About id="about"/>
+                        <Navbar/>
+                        <Home/>
+                        <About/>
                         <Services/>
                         <Projects/>
                         <Certificate/>
@@ -38,10 +38,8 @@ function App() {
                     </div>
                 )}
             </div>
-
         </Fragment>
     );
-
 }
 
 export default App;

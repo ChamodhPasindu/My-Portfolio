@@ -6,12 +6,15 @@ import grid_design from "../../assets/img/grid-design.png"
 
 import Aos from "aos"
 import "aos/dist/aos.css"
+import {Link} from "react-scroll"
+
 
 class Home extends Component {
 
     componentDidMount() {
-        Aos.init({duration:2200});
+        Aos.init({duration:2000});
     }
+
 
     render() {
         return (
@@ -20,17 +23,17 @@ class Home extends Component {
                     <div data-aos="fade-down-right" className="home-social-box  d-flex flex-column align-items-center justify-content-center">
                         <div  className="div-social-link d-flex flex-column align-items-center justify-content-evenly">
                             <div>
-                                <a href="https://github.com/ChamodhPasindu" target="_blank">
+                                <a href="https://github.com/ChamodhPasindu" target="_blank" rel="noreferrer">
                                     <i id="github" className="bi bi-github"/>
                                 </a>
                             </div>
                             <div>
-                                <a href="https://twitter.com/chamodh_pasindu" target="_blank">
+                                <a href="https://twitter.com/chamodh_pasindu" target="_blank" rel="noreferrer">
                                     <i id="twitter" className="bi bi-twitter"/>
                                 </a>
                             </div>
                             <div>
-                                <a href="https://www.linkedin.com/in/chamodh-pasindu-9b6178217/" target="_blank">
+                                <a href="https://www.linkedin.com/in/chamodh-pasindu-9b6178217/" target="_blank" rel="noreferrer">
                                     <i id="linkedin" className="bi bi-linkedin"/>
                                 </a>
 
@@ -50,14 +53,14 @@ class Home extends Component {
                             <h2>Full Stack Developer</h2>
                             <p>I'm currently focused on expanding my experience designing and developing high performing
                                 websites.</p>
-                            <a href="#contacts">
+                            <Link duratoin={2000} to="contacts">
                                 <button type="button" className="btn">Get In Touch</button>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                     <div data-aos="fade-down-left" className="home-photo-box  position-relative">
                         <img id="home-grid-img-design" src={grid_design} alt="grid design"/>
-                        <img id="home-my-photo-design" src={my_img} alt="my photo"/>
+                        <img id="home-my-photo-design" src={my_img} alt="me"/>
                         <div id="home-img-design"/>
                     </div>
                 </div>

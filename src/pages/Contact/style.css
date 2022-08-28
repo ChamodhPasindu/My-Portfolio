@@ -4,16 +4,17 @@
     border: 2px solid #7C5EF2;
     border-radius: 5px;
     background-color: transparent;
-    color: #7C5EF2!important;
+    color: #7C5EF2 ;
     font-weight: bold;
     font-size: 18px;
-    box-shadow:  5px 5px 5px #101523;
-
+    box-shadow: 5px 5px 5px #101523;
 }
+
 .contact-btn:hover {
     border-radius: 5px;
-    background-color: #202a4b;
-    border:  2px solid #7C5EF2;
+    background-color: #7C5EF2;
+    color: #CDCDCD;
+    border: 2px solid #7C5EF2;
 }
 
 .contact-info-card {
@@ -61,6 +62,7 @@
 .info-holder h5 i:hover {
     color: #CDCDCD;
 }
+
 @media all and (min-width: 320px)  and (max-width: 768px) {
     .contact-info-card {
         margin-bottom: 0;
@@ -72,22 +74,24 @@
         width: 100% !important;
     }
 }
+
 @media all and (min-width: 320px) and (max-width: 425px) {
     .contact-info-card {
         flex-direction: column;
         margin-bottom: 30px;
     }
+
     .info-holder {
         text-align: center;
-        margin-top: 0!important;
+        margin-top: 0 !important;
     }
+
     .icon-div > i {
         font-size: 30px;
     }
+
     .info-holder h5 i {
         color: #888888;
-        font-size: 30px!important;
+        font-size: 30px !important;
     }
-
-
 }

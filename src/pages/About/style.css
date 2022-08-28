@@ -4,7 +4,6 @@
     font-size: 18px;
     color: #BCBCBC;
 }
-
 .detail-card-holder {
     height: 250px;
     width: 15%;
@@ -12,7 +11,6 @@
     flex-direction: column;
     justify-content: space-between;
 }
-
 .detail-card-holder > div {
     height: 45%;
     border-radius: 10px;
@@ -24,22 +22,18 @@
     justify-content: center;
     align-items: center;
 }
-
 .detail-card-holder > div > h1 {
     color: #CDCDCD;
+    text-shadow: 2px 2px #282626;
 }
-
 .detail-card-holder > div > h6 {
     margin-top: -5px;
     color: #888888;
     width: 50%;
 }
-
 /*About-end*/
 
 /*stack-start*/
-
-
 .stack-card {
     height: 100%;
     width: 200px;
@@ -49,22 +43,18 @@
     background: linear-gradient(145deg, #181f34, #1d243e);
     box-shadow:  5px 5px 5px #101523;
 }
-
 .stack-card img {
     height: 65px;
 }
-
 .stack-card p {
     font-size: 20px;
     color: #BCBCBC;
     margin: 0 !important;
 }
-
 @media all and (min-width: 320px) and (max-width: 991px) {
     .about-content-area {
         flex-direction: column;
     }
-
     .detail-card-holder {
         margin-top: 20px;
         flex-direction: row;
@@ -72,26 +62,21 @@
         height: 115px;
         justify-content: space-evenly;
     }
-
     .detail-card-holder > div {
         width: 30%;
         height: 100%;
     }
-
     .detail-card-holder > div > h6 {
         width: 80%;
     }
-
     .p-holder {
         width: 99%;
     }
 }
-
 @media all and (min-width: 320px) and (max-width: 424px) {
     .detail-card-holder {
         width: 100%;
     }
-
     .detail-card-holder > div > h6 {
         width: 100%;
         font-size: 14px;
@@ -116,7 +101,6 @@
     .stack-card {
         width: 230px;
     }
-
 }
 @media all and (min-width: 425px) and (max-width: 574px) {
     .stack-card {
@@ -126,6 +110,3 @@
         font-size: 16px;
     }
 }
-
-
-

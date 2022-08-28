@@ -29,7 +29,6 @@ class Services extends Component {
                                     paragraph={"I love to making wireframes and decent UI’s for get better web surfing experience to the people who like minimalism"}/>
                             </div>
                     </div>
-
                 </div>
             </Fragment>
         )

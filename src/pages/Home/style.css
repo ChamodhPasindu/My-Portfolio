@@ -147,32 +147,26 @@
     .home-hello-box > div > h1 {
         font-size: 65px;
     }
-}/*done*/
-
+}
 @media all and (min-width: 576px) and (max-width: 991px) {
     .home-photo-box {
         height: 320px;
         width: 300px;
         margin-top: 20px;
     }
-
     .home-hello-box > div > h4 {
         font-size: 30px;
     }
-
     .home-hello-box > div > p {
         font-size: 24px;
     }
-
     .home-hello-box > div > button {
         font-size: 35px;
     }
-
     .home-hello-box > div > h1 {
         font-size: 55px;
     }
-}/*Done*/
-
+}
 
 @media all and (min-width: 320px) and (max-width: 991px) {
     .home-viewport-custom {

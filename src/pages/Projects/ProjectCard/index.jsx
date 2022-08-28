@@ -16,7 +16,7 @@ class ProjectCard extends Component {
                         </p>
                     </div>
                     <div className="d-flex justify-content-between ps-4 pe-4 flex-row">
-                        <a href={this.props.link} target="_blank">
+                        <a href={this.props.link} target="_blank" rel="noreferrer">
                             <i className="github-project-icon bi bi-github"/>
                         </a>
                         <div className="tech-name d-flex align-items-center justify-content-end flex-row">
