@@ -6,7 +6,7 @@ import python_logo from "../../assets/icon/Python10x.png"
 import js_logo from "../../assets/icon/JavaScript10x.png"
 import html_logo from "../../assets/icon/Html 510x.png"
 import css_logo from "../../assets/icon/CSS310x.png"
-import spring_logo from "../../assets/icon/Spring Logo10x-1.png"
+import spring_logo from "../../assets/icon/Spring Logo10x.png"
 import springboot_logo from "../../assets/icon/Spring Logo10x-1.png"
 import bootstrap_logo from "../../assets/icon/Bootstrap10x.png"
 import mui_logo from "../../assets/icon/Material Ui10x.png"
@@ -27,14 +27,14 @@ class About extends Component {
     render() {
         return (
             <Fragment>
-                <div data-aos="zoom-in" id="about-me" className="container-md ">
+                <div id="about-me" className="container-md ">
                     <div>
-                        <div className="page-title position-relative">
+                        <div data-aos="zoom-in" className="page-title position-relative">
                             <h3>About Me</h3>
                             <hr/>
                         </div>
                         <br/><br/>
-                        <div data-aos="fade-up"
+                        <div data-aos="zoom-in-right"
                              className="d-flex justify-content-around align-items-center about-content-area">
                             <div className=" p-holder">
                                 <p>
@@ -72,10 +72,10 @@ class About extends Component {
                         <br/>
                         <div>
                             <div className="container-md">
-                                <div className="d-flex flex-wrap justify-content-evenly">
+                                <div data-aos="zoom-in" className="d-flex flex-wrap justify-content-evenly">
                                     <StackCard logo={java_logo} skill="Java"/>
                                     <StackCard logo={python_logo} skill="Python"/>
-                                    <StackCard logo={js_logo} skill="Java"/>
+                                    <StackCard logo={js_logo} skill="Javascript"/>
                                     <StackCard logo={html_logo} skill="HTML"/>
                                     <StackCard logo={css_logo} skill="CSS"/>
                                     <StackCard logo={spring_logo} skill="Spring"/>

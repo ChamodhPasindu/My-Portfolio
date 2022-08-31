@@ -9,6 +9,17 @@
     font-size: 18px;
     box-shadow: 5px 5px 5px #101523;
 }
+.telegram-click>p>i{
+    margin-right: 6px;
+    color: #888888;
+    margin-bottom: 6px;
+}
+.telegram-click>p{
+    color: #888888;
+    font-size: 18px;
+    font-weight: 500;
+}
+
 
 .contact-btn:hover {
     border-radius: 5px;

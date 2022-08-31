@@ -18,15 +18,17 @@ code {
 }
 
 ::-webkit-scrollbar {
-    width: 12px;
+    width: 10px;
 }
 
 ::-webkit-scrollbar-track {
     background: #212B46;
+    border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb {
     background: #555;
+    border-radius: 5px;
 }
 
 .loading-spinner {

@@ -13,8 +13,8 @@ class Certificate extends Component {
     render() {
         return (
             <Fragment>
-                <div data-aos="zoom-in" id="certificates" className="container-md">
-                    <div className="page-title position-relative">
+                <div  id="certificates" className="container-md">
+                    <div data-aos="zoom-in" className="page-title position-relative">
                         <h3>Certificates</h3>
                         <hr/>
                     </div>

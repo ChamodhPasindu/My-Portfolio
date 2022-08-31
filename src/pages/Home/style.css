@@ -57,17 +57,17 @@
     color: #7C5EF2;
 }
 
-#github:hover {
+#github:hover::before {
     font-size: 35px;
     color: white;;
 }
 
-#twitter:hover {
+#twitter:hover::before{
     font-size: 35px;
     color: #00acee;
 }
 
-#linkedin:hover {
+#linkedin:hover::before{
     font-size: 35px;
     color: #0072b1;
 }
@@ -149,29 +149,60 @@
     }
 }
 @media all and (min-width: 576px) and (max-width: 991px) {
+    .home-viewport-custom {
+        flex-direction: row!important;
+    }
     .home-photo-box {
-        height: 320px;
-        width: 300px;
+        margin-right: 29px;
+        margin-bottom: 50px;
+        height: 210px;
+        width: 250px;
         margin-top: 20px;
     }
+    .home-social-box {
+        margin-top: 350px;
+    }
+    .home-hello-box{
+        text-align: start!important;
+    }
     .home-hello-box > div > h4 {
-        font-size: 30px;
+        font-size: 20px;
     }
     .home-hello-box > div > p {
-        font-size: 24px;
+        font-size: 15px;
     }
-    .home-hello-box > div > button {
-        font-size: 35px;
+    .home-hello-box > div button {
+        font-size: 18px;
     }
     .home-hello-box > div > h1 {
-        font-size: 55px;
+        font-size: 40px;
     }
+    .home-hello-box > div > h2 {
+        color: #7C5EF2;
+        font-size: 25px;
+    }
+    .div-follow-me {
+        width: 35%;
+        height: 30%;
+    }
+    .div-follow-me > h5 {
+        height: 20%;
+        left: -32px;
+        bottom: 8px;
+    }
+    .div-social-link {
+        width: 45%;
+        height: 40%;
+    }
+    .div-social-link > div > a > i {
+        font-size: 28px;
+    }
+
 }
 
 @media all and (min-width: 320px) and (max-width: 991px) {
     .home-viewport-custom {
         flex-direction: column-reverse;
-        /*justify-content: end;*/
     }
 
     .home-social-box {
@@ -242,13 +273,10 @@
 }
 
 @media all and (min-width: 320px) and (max-width: 424px) {
-    .home-viewport-custom {
-        /*height: 640px;*/
-    }
 
     .home-photo-box {
-        height: 200px;
-        width: 180px;
+        height: 30vh;
+        width: 26vh;
         margin-top: 20px;
     }
 
@@ -267,17 +295,23 @@
     .home-hello-box {
         margin-top: 120px;
     }
-
-    .home-hello-box > div > h4 {
-        /*font-size: 25px;*/
+    .home-hello-box h4{
+        font-size: 3.5vh;
+    }
+    .home-hello-box > div > h1 {
+        font-size: 5vh!important;
+    }
+    .home-hello-box > div > h2 {
+        font-size: 3.5vh!important;
     }
 
     .home-hello-box > div > p {
-        font-size: 18px;
+        font-size: 2.5vh!important;
     }
 
-    .home-hello-box > div > button {
-        font-size: 20px;
+    .home-hello-box > div button {
+        font-size: 3vh;
+        margin-top: 15px;
     }
 
     .home-hello-box > div > h1 {
@@ -289,9 +323,15 @@
     }
 
     .home-social-box {
-        margin-bottom: 70px;
         display: flex!important;
         height: 300px;
     }
-
+    .div-social-link {
+        width: 8vh;
+        height: 20vh;
+        margin-right: 2vh;
+    }
+    .div-social-link > div > a > i {
+        font-size: 4vh;
+    }
 }

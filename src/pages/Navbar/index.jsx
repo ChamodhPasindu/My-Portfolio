@@ -38,8 +38,8 @@ class Navbar extends Component {
     render() {
         return (
             <Fragment>
-                <nav data-aos="fade-down" className="navbar navbar-expand-lg sticky-top">
-                    <div className="container-xl mt-2">
+                <nav className="navbar navbar-expand-lg sticky-top">
+                    <div data-aos="fade-down" data-aos-once="true" className="container-xl mt-2">
                         <button className="bg-transparent fw-bolder fs-5 name-logo">
                             Chamodh
                         </button>
@@ -56,7 +56,7 @@ class Navbar extends Component {
                                           onClick={this.changeActive}>HOME</Link>
                                 </li>
                                 <li className="nav-item ms-4">
-                                    <Link id="about" className="nav-link " to="about-me" duratoin={1000}
+                                    <Link id="about" className="nav-link" to="about-me" duratoin={1000}
                                           onClick={this.changeActive}>ABOUT</Link>
                                 </li>
                                 <li className="nav-item ms-4">

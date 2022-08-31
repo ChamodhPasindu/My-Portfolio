@@ -20,6 +20,7 @@ class Contact extends Component {
                         <a data-aos="zoom-in" href="mailto:chamodhpasindu@gmail.com">
                             <button className=" contact-btn" >Mail Me</button>
                         </a>
+                        {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                         <a data-aos="zoom-in">
                             <button className=" contact-btn">Get Resume</button>
                         </a>
@@ -29,8 +30,24 @@ class Contact extends Component {
                         <div data-aos="zoom-in" className="d-flex flex-wrap w-75 justify-content-evenly contact-card-holder">
                             <ContactInfo icon={<i className="bi bi-geo-alt-fill"/>} title={"Address"}
                                          detail={"Piliyandala,Sri Lanka"}/>
-                            <ContactInfo icon={<i className="bi bi-telephone-fill"/>} title={"Mobile Number"}
-                                         detail={"+94 78 870 6233"}/>
+                            <div className="contact-info-card">
+                                <div className="icon-div">
+                                    <i className="bi bi-telephone-fill"/>
+                                </div>
+                                <div className="info-holder mt-3">
+                                    <div>
+                                        <h4>Contact Info</h4>
+                                    </div>
+                                        <a className="text-decoration-none telegram-click" href="https://t.me/CPasindu" target="_blank" rel="noreferrer">
+                                            <p>
+                                                <i className="bi bi-telegram"/>
+                                                Telegram
+                                            </p>
+                                        </a>
+                                </div>
+                            </div>
+
+
                             <ContactInfo icon={<i className="bi bi-envelope-check-fill"/>} title={"Email Address"}
                                          detail={"chamodhpasindu@gmail.com"}/>
                             <div className="contact-info-card">
