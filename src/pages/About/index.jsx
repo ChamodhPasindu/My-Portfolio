@@ -50,7 +50,7 @@ class About extends Component {
                                     ideas from any subject to implement it in your field!
                                 </p>
                             </div>
-                            <div data-aos="zoom-in-left" className="detail-card-holder text-center">
+                            <div data-aos="zoom-in" className="detail-card-holder text-center">
                                 <div>
                                     <h1>20+</h1>
                                     <h6>Completed Project</h6>

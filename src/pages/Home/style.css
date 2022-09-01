@@ -200,7 +200,7 @@
 
 }
 
-@media all and (min-width: 320px) and (max-width: 991px) {
+@media all and (min-width: 280px) and (max-width: 991px) {
     .home-viewport-custom {
         flex-direction: column-reverse;
     }
@@ -272,7 +272,7 @@
     }
 }
 
-@media all and (min-width: 320px) and (max-width: 424px) {
+@media all and (min-width: 280px) and (max-width: 424px) {
 
     .home-photo-box {
         height: 30vh;
@@ -335,3 +335,22 @@
         font-size: 4vh;
     }
 }
+@media all and (max-width: 280px) {
+    .home-viewport-custom {
+        height: 90vh;
+    }
+    .home-photo-box {
+        height: 180px;
+        width: 150px;
+    }
+    .home-hello-box > div > h1 {
+        font-size: 4vh!important;
+    }
+    .div-social-link {
+        margin-right: 5vh;
+    }
+    .home-social-box {
+        height: 40%;
+    }
+}
+

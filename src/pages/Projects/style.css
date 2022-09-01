@@ -90,3 +90,11 @@
         font-size: 16px;
     }
 }
+@media all and (max-width: 280px) {
+    .project-card > h1 {
+        font-size: 16px;
+    }
+    .project-card{
+        width: 100%;
+    }
+}

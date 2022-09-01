@@ -29,7 +29,7 @@ class Certificate extends Component {
                     </div>
                     <br/>
                     <div className="d-flex justify-content-center">
-                        <a data-aos="fade-left"
+                        <a data-aos="zoom-in"
                            href="https://drive.google.com/drive/u/0/folders/1cL2uwJrwYKq_UcvuzJ-_bK_s2lYxW1Jd"
                            target="_blank" rel="noreferrer">
                             <button type="button" className="explore-more-btn">Explore more <i

@@ -74,19 +74,19 @@
     color: #CDCDCD;
 }
 
-@media all and (min-width: 320px)  and (max-width: 768px) {
+@media all and (min-width: 280px)  and (max-width: 768px) {
     .contact-info-card {
         margin-bottom: 0;
     }
 }
 
-@media all and (min-width: 320px)  and (max-width: 425px) {
+@media all and (min-width: 280px)  and (max-width: 425px) {
     .contact-card-holder {
         width: 100% !important;
     }
 }
 
-@media all and (min-width: 320px) and (max-width: 425px) {
+@media all and (min-width: 280px) and (max-width: 425px) {
     .contact-info-card {
         flex-direction: column;
         margin-bottom: 30px;
@@ -106,3 +106,9 @@
         font-size: 30px !important;
     }
 }
+@media all and (max-width: 280px) {
+    .info-holder {
+        width: 100%;
+    }
+}
+

@@ -110,3 +110,25 @@
         font-size: 16px;
     }
 }
+@media all and (max-width: 280px) {
+    .about-content-area{
+        flex-direction: column;
+    }
+    .p-holder{
+        width: 100%;
+    }
+    .detail-card-holder{
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .detail-card-holder>div{
+        height: 100px;
+        margin: 5px;
+    }
+    .detail-card-holder>div>h6{
+        width: 80%;
+    }
+}
+
